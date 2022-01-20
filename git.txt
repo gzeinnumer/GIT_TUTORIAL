@@ -1,0 +1,23 @@
+git --version
+
+https://github.com/gzeinnumer/GIT_TUTORIAL.git
+
+git init
+
+-- buat file index.php
+
+git add index.php
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/gzeinnumer/GIT_TUTORIAL.git
+
+git push -u origin master
+
+git add .
+
+git checkout -b new_branch
+
+git commit -m "first commit"
+
+git push -u origin new_branch
